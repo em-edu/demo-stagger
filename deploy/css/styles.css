@@ -426,10 +426,17 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
+section div {
   height: 200px;
   width: 200px;
-  margin: 0;
+  margin: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box {
+  padding: 0;
 }
 
 .red-box {
